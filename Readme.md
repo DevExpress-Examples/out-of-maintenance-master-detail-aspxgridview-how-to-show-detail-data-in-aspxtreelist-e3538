@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # Master-Detail ASPxGridView - How to show detail data in ASPxTreeList
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e3538/)**
+<!-- run online end -->
 
 
 <p>Sometimes, it is necessary to show hierarchical data inside a detail ASPxGridView row. ASPxTreeList can show hierarchical data, but it does not have a built-in capability to get a corresponding master row key value. </p><p>To get a grid master row key value, it is necessary to move up through a hierarchy of controls to find <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewGridViewBaseRowTemplateContainerMembersTopicAll"><u>GridViewBaseRowTemplateContainer</u></a> that has the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewGridViewBaseRowTemplateContainer_KeyValuetopic"><u>KeyValue</u></a> property. </p>
